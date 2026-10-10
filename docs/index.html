@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Dungeon Runners · Remaster</title>
+<link rel="stylesheet" href="gallery.css?v=reviewed-20261010">
+<script src="gallery-data.js?v=reviewed-20261010" defer></script>
+<script src="gallery.js?v=reviewed-20261010" defer></script>
+</head>
+<body>
+<main>
+<header class="masthead">
+<div class="brand-group"><a class="brand" href="index.html" aria-label="Dungeon Runners"><span class="game-logo" role="img" aria-label="Dungeon Runners"></span><span class="brand-title">Remaster</span></a></div>
+<nav aria-label="Navigation"><a class="tab selected" href="index.html" aria-current="page">Gallery</a><a class="tab" href="progress.html">Progress</a></nav>
+</header>
+<section class="stats" aria-label="Remaster progress">
+<div class="stat panel"><div class="stat-label">Remastered<span id="catalog-percent">—</span></div><strong id="catalog-count">— / —</strong><div class="meter" id="catalog-meter" role="progressbar" aria-label="Remastered"><span></span></div></div>
+</section>
+<section class="workspace panel" aria-label="Original vs Remastered">
+<div class="toolbar">
+<label>Category<select id="category"></select></label>
+<label class="asset-label">Asset<select id="asset"></select></label>
+<label>View<select id="view"></select></label>
+</div>
+<div class="asset-heading"><div><p id="kind" class="eyebrow"></p><h1 id="title"></h1></div></div>
+<div class="pair">
+<figure><figcaption>Original</figcaption><button id="original-button" class="image-button" aria-label="Enlarge Original"><img id="original" alt="Original"></button></figure>
+<figure><figcaption>Remastered</figcaption><button id="remastered-button" class="image-button" aria-label="Enlarge Remastered"><img id="remastered" alt="Remastered"></button></figure>
+</div>
+</section>
+<section class="collection-panel panel" aria-label="Assets">
+<div class="collection-header"><h2 id="collection-title">Equipment</h2><span id="count"></span></div>
+<div id="collection" class="collection"></div>
+</section>
+</main>
+<dialog id="zoom"><div class="dialog-bar"><strong id="zoom-label"></strong><button id="close-zoom" class="button">Close</button></div><img id="zoom-image" alt="Enlarged preview"></dialog>
+</body>
+</html>
+

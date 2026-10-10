@@ -1,0 +1,4 @@
+docs/*.html linguist-documentation=false
+docs/*.css linguist-documentation=false
+docs/*.js linguist-documentation=false
+docs/gallery-data.js linguist-generated=true
